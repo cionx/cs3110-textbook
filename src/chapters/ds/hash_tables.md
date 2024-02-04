@@ -414,7 +414,7 @@ Here are the AF and RI:
         duplicate keys in association lists).  All keys are
         in the right buckets: if [k] is in [buckets] at index
         [b] then [hash(k) = b]. The output of [hash] must always
-        be non-negative. [hash] must run in constant time.*)
+        be non-negative. [hash] must run in constant time. *)
 ```
 
 What would the efficiency of `insert`, `find`, and `remove` be for this rep
